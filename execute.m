@@ -2,7 +2,7 @@
 % eksperymentu dla zadania domowego z przedmiotu MODI - Modelowanie i 
 % Identyfikacja 
 
-% StwÃ³rz folder na wykresy jeÅ›li jeszcze nie istnieje
+% Stwórz folder na wykresy jeœli jeszcze nie istnieje
 if(exist('figures', 'dir') == 0)
     mkdir('figures'); 
 end
@@ -10,13 +10,13 @@ end
 % Zadanie a)
 disp('Wykonuje skrypt nonlinear_figures.m');
 nonlinear_figures
-a = input('WciÅ›nij ENTER aby przejÅ›Ä‡ dalej...');
+a = input('Wciœnij ENTER aby przejœæ dalej...');
 
-% Zadanie c) czÄ™Å›Ä‡ pierwsza
+% Zadanie c) czêœæ pierwsza
 disp('Wykonuje skrypt SISO_linear_figures.m');
 SISO_linear_figures
-a = input('WciÅ›nij ENTER aby przejÅ›Ä‡ dalej...');
+a = input('Wciœnij ENTER aby przejœæ dalej...');
 
-% Zadanie c) czÄ™Å›Ä‡ druga
+% Zadanie c) czêœæ druga
 disp('Wykonuje skrypt MISO_linear_figures.m');
 MISO_linear_figures

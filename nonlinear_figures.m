@@ -1,5 +1,5 @@
 % Skrypt nonlinear_figures.m generuje wykresy charakterystyk 
-% statycznych dla obu zadanych procesÃ³w w odpowiednich przedziaÅ‚ach
+% statycznych dla obu zadanych procesów w odpowiednich przedzia³ach
 
 % Generowanie okna graficznego dla modelu SISO
 fig1 = figure('Name', 'Wykres modelu SISO');
@@ -14,9 +14,9 @@ grid on;
 fig1 = plot(u, y);
 
 % Opatrzenie wykresu odpowiednimi informacjami
-xlabel('WartoÅ›Ä‡ sterowania u');
-ylabel('WartoÅ›Ä‡ wyjÅ›cia procesu y');
-title('Charakterystyka statyczna procesu o 1 wejÅ›ciu i 1 wyjÅ›ciu');
+xlabel('Wartoœæ sterowania u');
+ylabel('Wartoœæ wyjœcia procesu y');
+title('Charakterystyka statyczna procesu o 1 wejœciu i 1 wyjœciu');
 legend('y(u)');
 
 % Zapis wykresu do pliku
@@ -37,10 +37,10 @@ grid on;
 fig2 = surf(U1, U2, Z);
 
 % Opatrzenie wykresu odpowiednimi informacjami
-xlabel('WartoÅ›Ä‡ sterowania u1');
-ylabel('WartoÅ›Ä‡ sterowania u2');
-zlabel('WartoÅ›Ä‡ wyjÅ›cia y');
-title('Charakterystyka statyczna procesu o 2 wejÅ›ciach i 1 wyjÅ›ciu');
+xlabel('Wartoœæ sterowania u1');
+ylabel('Wartoœæ sterowania u2');
+zlabel('Wartoœæ wyjœcia y');
+title('Charakterystyka statyczna procesu o 2 wejœciach i 1 wyjœciu');
 legend('y(u1, u2)', 'Location', 'northeast');
 % Zapis wykresu do pliku
 saveas(fig2, 'figures/MISO_nonlinear.bmp');
