@@ -5,7 +5,7 @@ function [y] = MISO_linear(duty_point, u1, u2)
     % Pobranie punktu pracy
     duty_u1 = duty_point(1);
     duty_u2 = duty_point(2);
-    
+   
     % Obliczenie wartoœci wyjœcia procesu w punkcie pracy
     y = MISO_nonlinear(duty_u1, duty_u2); 
     

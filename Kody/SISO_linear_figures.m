@@ -32,5 +32,3 @@ for i=1:length(duty_points)
     saveas(fig, filename) 
     hold off
 end
-
-

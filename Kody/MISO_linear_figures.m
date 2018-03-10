@@ -3,8 +3,8 @@
 % zlinearyzowanych w interesuj¹cych punktach pracy 
 
 % Generacja wykresów
-duty_points = [0,0; 1,-1; -1,1]; % Wybrane punkty pracy
- for i=1:size(duty_points)
+duty_points = [0,0; 1,1; -1,-1]; % Wybrane punkty pracy
+for i=1:size(duty_points)
     % Nazwanie okna graficznego
     duty_point_name = ['(', num2str(duty_points(i,1)), ', ', num2str(duty_points(i,2)), ')'];
     figurename = ['Wykres dla punktu pracy (u1,u2) = ', duty_point_name];
@@ -41,4 +41,4 @@ duty_points = [0,0; 1,-1; -1,1]; % Wybrane punkty pracy
     saveas(fig, filename); 
     hold off
 
- end
+end

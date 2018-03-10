@@ -44,4 +44,3 @@ title('Charakterystyka statyczna procesu o 2 wejœciach i 1 wyjœciu');
 legend('y(u1, u2)', 'Location', 'northeast');
 % Zapis wykresu do pliku
 saveas(fig2, 'figures/MISO_nonlinear.png');
-
