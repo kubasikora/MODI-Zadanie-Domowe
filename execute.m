@@ -2,6 +2,8 @@
 % eksperymentu dla zadania domowego z przedmiotu MODI - Modelowanie i 
 % Identyfikacja 
 
+mkdir('figures'); % Stworzenie folderu na wykresy
+
 % Zadanie a)
 disp('Wykonuje skrypt nonlinear_figures.m');
 nonlinear_figures
